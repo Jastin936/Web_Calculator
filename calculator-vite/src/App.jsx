@@ -1,9 +1,8 @@
-import React from 'react';
 import Calculator from './Calculator.jsx';
 
 function App() {
   return (
-    <div style={{ display: 'flex', justifyContent: 'center', padding: '40px' }}>
+    <div className="min-h-screen bg-gray-100 flex items-center justify-center">
       <Calculator />
     </div>
   );
